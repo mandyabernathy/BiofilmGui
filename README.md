@@ -33,3 +33,12 @@ for tkinter when I tried it on linux. More investigation to follow.)
 
 3. Start the program using 
     `python gui.py`
+
+# Layout
+
+The first tab show biofilm growth for the selected bacteria. Choose a different bacteria from the dropdown menu, or change any of the parameters.
+
+The second tab shows the growth of planktonic bacteria, plotting data points from experiments involving each bacteria. Choose a different bacteria from
+the dropdown menu.
+
+The third tab is for data entry. If you would like to calculate biofilm growth for a different bacteria, you need to perform an experiment that periodically measures the planktonic growth of the bacteria (Turbidimetric Determination). Inoculate a sample with your bacteria and incubate it at the required temperature. Measure the optical density of the sample every hour. After the experiment, enter the bacteria name, the start and end times of your sampling period, and the OD measurements. If you receive no errors, the bacteria will be an option for plotting in the first and second tabs. 
