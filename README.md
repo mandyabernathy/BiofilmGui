@@ -20,6 +20,7 @@ of an antibiotic against a bacteria.
 1. Clone this repository
 
 `git clone https://github.com/mandyabernathy/BiofilmGui.git`
+
 2. Use pip to install Matplotlib, SciPy, and tkinter.
 ```
 pip install matplotlib
@@ -28,7 +29,7 @@ pip install tkinter //or// sudo apt-get install python3-tk
 ```
 (I don't rememember having 
 any issues installing tkinter on Windows using pip, but pip would not work 
-for tkinter when I tried it on linux.)
+for tkinter when I tried it on linux. More investigation to follow.)
 
 3. Start the program using 
     `python gui.py`
